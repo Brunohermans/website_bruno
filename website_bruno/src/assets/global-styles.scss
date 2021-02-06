@@ -1,0 +1,11 @@
+<style lang="scss">
+// Your variable overrides
+$body-bg: #000;
+$body-color: #111;
+
+// Bootstrap and its default variables
+@import '../node_modules/bootstrap/scss/bootstrap';
+// BootstrapVue and its default variables
+@import '../node_modules/bootstrap-vue/src/index.scss';
+
+</style>
