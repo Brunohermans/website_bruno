@@ -1,5 +1,5 @@
 import Vue from 'vue'
-import Home from './views/Home.vue'
+import App from './views/App.vue'
 import router from './router'
 import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
 
@@ -17,5 +17,5 @@ Vue.config.productionTip = false
 
 new Vue({
   router,
-  render: h => h(Home),
+  render: h => h(App),
 }).$mount('#app')

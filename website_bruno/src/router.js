@@ -1,6 +1,5 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Home from './views/Home.vue'
 
 Vue.use(Router)
 
@@ -9,7 +8,12 @@ export default new Router({
     {
       path: '/',
       name: 'home',
-      component: Home
+      component: () => import('./views/Home.vue'),
+    },
+    {
+      path: '/contact',
+      name: 'contact',
+      component: () => import('./views/Contact.vue'),
     },
     {
       path: '/cycling',
@@ -17,9 +21,15 @@ export default new Router({
       component: () => import('./views/Cycling.vue'),
     },
     {
-      path: '/contact',
-      name: 'contact',
-      component: () => import('./views/Contact.vue'),
-    }
+      path: '/music',
+      name: 'Music',
+      component: () => import('./views/Music.vue'),
+    },
+    {
+      path: '/Projects',
+      name: 'Projects',
+      component: () => import('./views/Projects.vue'),
+    },
+
   ]
 })
