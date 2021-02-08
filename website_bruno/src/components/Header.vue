@@ -1,6 +1,6 @@
 <template lang="html">
   <div id="nav">
-    <b-navbar type="dark" variant="dark">
+    <b-navbar toggleable="lg" type="light" variant="primary">
       <b-navbar-nav>
         <b-navbar-brand>Bruno Hermans</b-navbar-brand>
         <b-nav-item to="/">Home</b-nav-item>
@@ -22,6 +22,8 @@ export default {
 }
 </script>
 
-<style lang="css" scoped>
-
+<style scoped>
+#b-navbar {
+  position: sticky
+}
 </style>
