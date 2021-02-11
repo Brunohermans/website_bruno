@@ -5,7 +5,7 @@
       <div id="menu2" class="menu col-md-10 col-lg-8">
         <b-navbar toggleable="md" class="ml-auto" type="light" variant="primary">
             <b-navbar-nav class="left">
-            <b-navbar-brand>Bruno Hermans</b-navbar-brand>
+            <b-navbar-brand to="/">Bruno Hermans</b-navbar-brand>
               <b-collapse id="navbar-toggle-collapse" is-nav>
                 <b-nav-item to="/">Home</b-nav-item>
                 <b-nav-item to="/Projects">Projects</b-nav-item>
