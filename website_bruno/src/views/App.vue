@@ -1,10 +1,10 @@
 <template>
-  <div id="app" class="container">
+  <div id="app" class="container-fluid">
     <Header></Header>
     <div class="row content-main">
-      <!-- <div id="content1" class="content col-lg-1"></div> -->
-      <div id="content2" class="content col-md-12 col-lg-12"><router-view/></div>
-      <!-- <div id="content3" class="content col-lg-1"></div> -->
+      <div id="content1" class="content col-md-1 col-lg-2"></div>
+      <div id="content2" class="content col-md-10 col-lg-8"><router-view/></div>
+      <div id="content3" class="content col-md-1 col-lg-2"></div>
     </div>
     <div class="row breath_space2"></div>
     <Footer></Footer>
