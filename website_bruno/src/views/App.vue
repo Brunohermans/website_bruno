@@ -1,9 +1,10 @@
 <template>
   <div id="app" class="container-fluid">
     <Header></Header>
+
     <div class="row content-main">
       <div id="content1" class="content col-md-1 col-lg-2"></div>
-      <div id="content2" class="content col-md-10 col-lg-8"><router-view/></div>
+      <div id="content2" class="content col-md-10 col-lg-8"><Router></Router></div>
       <div id="content3" class="content col-md-1 col-lg-2"></div>
     </div>
     <div class="row breath_space2"></div>
@@ -14,12 +15,14 @@
 <script>
 import Header from '../components/Header.vue'
 import Footer from '../components/Footer.vue'
+import Router from '../components/Router.vue'
 
 export default {
   name: 'App',
   components: {
     Header,
-    Footer
+    Footer,
+    Router
   }
 }
 </script>
@@ -31,7 +34,7 @@ export default {
 
 #content2 {
   height: 80em;
-  background-color: yellow;
+  /* background-color: yellow; */
 }
 
 .content-main {

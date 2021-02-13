@@ -1,16 +1,21 @@
 <template>
   <div id="app">
-    <p>Dit is een test voor de home page...</p>
+    <Banner></Banner>
   </div>
+
 </template>
 
 <script>
+import Banner from '../components/Banner.vue'
 
+export default {
+  name: 'App',
+  components: {
+    Banner,
+  }
+}
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  
-}
+
 </style>
