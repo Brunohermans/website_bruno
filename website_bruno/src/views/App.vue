@@ -33,12 +33,14 @@ export default {
 }
 
 #content2 {
-  height: 80em;
+  /* height: 80em; */
+  padding-right: 0px;
+  padding-left: 0px;
   /* background-color: yellow; */
 }
 
 .content-main {
-  padding-top: 57px;
+  padding-top: 56px;
   /* padding-left: 20px;
   padding-right: 5px; */
 }

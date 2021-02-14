@@ -17,7 +17,6 @@ export default {
 
 <style lang="css" scoped>
 
-
 .foot {
   height: 5em;
   background-color: gray;

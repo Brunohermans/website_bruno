@@ -1,6 +1,6 @@
 <template>
   <div id="projects">
-    <p>contactpagina...</p>
+    <p>On this page you can find an overview of the projects I do in my free time.</p>
   </div>
 </template>
 

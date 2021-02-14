@@ -1,7 +1,10 @@
 <template lang="html">
   <div id="banner">
     <div class="name">
-      <h2>Bruno Hermans</h2>
+      <div id="text">
+        <h2>Bruno Hermans</h2>
+        <p2>Data-analist</p2>
+      </div>
     </div>
   </div>
 </template>
@@ -17,14 +20,15 @@ export default {
 <style lang="css" scoped>
   #banner {
     text-align: center;
-    background-image: url('~@/assets/snow.jpg');
+    background-image: url('~@/assets/sea.jpg');
+    filter: contrast(150%);
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 0.9;
-    height: 12em;
+    background-position: center;
+    opacity: 1;
+    height: 20em;
   }
-
-  #h2 {
-    color: blue;
+  #text {
+    padding-top: 7.5em;
   }
 </style>
