@@ -83,4 +83,7 @@ export default {
 </script>
 
 <style lang="css" scoped>
+#app1 {
+  padding: 10px;
+}
 </style>
