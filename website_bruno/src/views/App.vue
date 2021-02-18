@@ -33,7 +33,7 @@ export default {
 }
 
 #content2 {
-  /* height: 80em; */
+  min-height: 40em;
   padding-right: 0px;
   padding-left: 0px;
   /* background-color: yellow; */
